@@ -13,19 +13,19 @@ function isfocused {
 }
 
 # execute keystroke <arg>
-function keystroke{
-  keystroke=$1
-  xdotool windowactivate --sync $wid key $keystroke
+function keystroke {
+  ks=$1
+  xdotool windowactivate --sync $wid key $ks
 }
 # execute keystroke control-<arg>
-function keystroke_cntrl{
-  keystroke="control+"$1
-  xdotool windowactivate --sync $wid key $keystroke
+function keystroke_cntrl {
+  ks="control+"$1
+  xdotool windowactivate --sync $wid key $ks
 }
 # execute keystroke control-shift-<arg>
 function keystroke_cntrl_shif {
-  keystroke="control+shift+"$1
-  xdotool windowactivate --sync $wid key $keystroke
+  ks="control+shift+"$1
+  xdotool windowactivate --sync $wid key $ks
 }
 
 
