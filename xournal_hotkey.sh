@@ -19,7 +19,6 @@ function keystroke {
 
 if [ $(isfocused) = "y" ]
 then
-  echo "PID: $pid | WID: $wid"
   case $1 in
     ruler)      keystroke L ;;
     marker)     keystroke H ;;
