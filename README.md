@@ -1,2 +1,2 @@
 # xournal-hotkeys
-hotkey script for xournal
+Execute xournal keystrokes from the terminal
